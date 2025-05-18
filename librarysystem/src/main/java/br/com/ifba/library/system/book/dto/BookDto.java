@@ -1,4 +1,4 @@
-package br.com.ifba.library.system.dto;
+package br.com.ifba.library.system.book.dto;
 
 import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
@@ -23,10 +23,6 @@ public class BookDto {
     @NotBlank(message = "O autor é obrigatório")
     @Size(max = 100, message = "O autor não pode exceder 100 caracteres")
     private String author;
-
-    @NotBlank(message = "O ISBN é obrigatório")
-    @Pattern(regexp = "^\\d{10}|\\d{13}$", message = "O ISBN deve ter 10 ou 13 dígitos")
-    private String isbn;
 
     @PastOrPresent(message = "A data de publicação não pode ser futura")
     private LocalDate publishedDate;
