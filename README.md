@@ -1,2 +1,2 @@
 # Library_System
-Sistema para gerenciar livros, e empréstimos com usuários em uma biblioteca.
+Sistema voltado para prática de testes unitários. O sistema envolve operações CRUD para gerenciar emprestimos de livros em uma biblioteca.
