@@ -21,7 +21,7 @@ public class Loan {
     private Long id;
     @OneToOne
     private Book bookId;
-    
+
     private Long userId;
     private LocalDate startDate;
     private LocalDate endDate;
